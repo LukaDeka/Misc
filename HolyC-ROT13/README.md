@@ -8,14 +8,15 @@ This is a simple ROT13 encoder/decoder written in HolyC, made by by Terry A. Dav
 2. Run the compiled executable like so: `./a.out <input.txt> <output.txt>`
 
 ## Example
+`input.txt`:
 ```
-input.txt:
-"GUVF VF N FRPERG ZRFFNTR GUNG JVYY OR QRPBQRQ HFVAT EBG GUVEGRRA"
+GUVF VF N FRPERG ZRFFNTR GUNG JVYY OR QRPBQRQ HFVAT EBG GUVEGRRA
 ```
+compilation and execution:
 ```bash
 $ hcc rot13.HC && ./a.out input.txt output.txt
 ```
+`output.txt`:
 ```
-output.txt:
-"THIS IS A SECRET MESSAGE THAT WILL BE DECODED USING ROT THIRTEEN"
+THIS IS A SECRET MESSAGE THAT WILL BE DECODED USING ROT THIRTEEN
 ```
